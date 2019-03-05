@@ -9,7 +9,7 @@ include: "*.view"
 
 explore: order_items {
   view_name: order_items
-  foo:bars
+
 
   from: order_items
   join: inventory_items {
