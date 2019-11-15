@@ -1,4 +1,5 @@
 connection: "thelook"
+aggregate_awareness: yes
 
 # include all the views
 include: "*.view"

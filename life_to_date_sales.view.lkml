@@ -51,6 +51,9 @@ view: life_to_date_sales {
     type: max
     value_format: "$#.00;($#.00)"
   }
+  dimension: table {
+    sql: ${life_to_date_sales._SQL_TABLE_NAME} ;;
+  }
 
 
   filter: store_filter { # templated filters allow you to inject filters to inner and outer query
